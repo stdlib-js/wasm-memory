@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-26)
+## Unreleased (2025-12-17)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`90d23b4`](https://github.com/stdlib-js/stdlib/commit/90d23b4d6ca9fd25d98eb748d0f6f9e5412a45b9) - **bench:** refactor to use string interpolation in `wasm/memory` [(#9154)](https://github.com/stdlib-js/stdlib/pull/9154) _(by piyxsh31, Athan Reines)_
 -   [`c1e2833`](https://github.com/stdlib-js/stdlib/commit/c1e28334d789719eb9910e66e5237ed526179747) - **refactor:** use types defined in `wasm/types` _(by Athan Reines)_
 -   [`67ac388`](https://github.com/stdlib-js/stdlib/commit/67ac38817706780d7e842aa71482ca5e3f585572) - **feat:** add `wasm/memory` _(by Athan Reines)_
 
@@ -35,9 +36,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   piyxsh31
 
 </section>
 
