@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Memory from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm-memory@esm/index.mjs';
+import Memory from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm-memory@v0.1.0-esm/index.mjs';
 ```
 
 #### Memory( descriptor )
@@ -150,7 +150,7 @@ The method returns the size of the previous [`ArrayBuffer`][@stdlib/array/buffer
 
 import hasWebAssemblySupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-wasm-support@esm/index.mjs';
 import DataView from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dataview@esm/index.mjs';
-import Memory from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm-memory@esm/index.mjs';
+import Memory from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm-memory@v0.1.0-esm/index.mjs';
 
 function main() {
     var view;
