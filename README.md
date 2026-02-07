@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+Memory = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm-memory@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/wasm-memory/tags). For example,
+
+```javascript
 Memory = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm-memory@v0.1.1-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var Memory = require( 'path/to/vendor/umd/wasm-memory/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/wasm-memory@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/wasm-memory@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -172,7 +177,7 @@ The method returns the size of the previous [`ArrayBuffer`][@stdlib/array/buffer
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-wasm-support@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-dataview@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/wasm-memory@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/wasm-memory@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
