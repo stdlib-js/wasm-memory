@@ -1,4 +1,4 @@
-"use strict";var s=function(u,e){return function(){return e||u((e={exports:{}}).exports,e),e.exports}};var i=s(function(c,t){"use strict";var p=typeof WebAssembly=="object"?WebAssembly.Memory:null;t.exports=p});var o=s(function(f,l){"use strict";function b(){throw new Error("not implemented")}l.exports=b});var m=require("@stdlib/assert-has-wasm-support"),n=i(),y=o(),r;m()?r=n:r=y;module.exports=r;
+"use strict";var s=function(u,e){return function(){try{return e||u((e={exports:{}}).exports,e),e.exports}catch(p){throw e=0,p}}};var i=s(function(f,t){"use strict";var b=typeof WebAssembly=="object"?WebAssembly.Memory:null;t.exports=b});var o=s(function(v,l){"use strict";function m(){throw new Error("not implemented")}l.exports=m});var n=require("@stdlib/assert-has-wasm-support"),y=i(),a=o(),r;n()?r=y:r=a;module.exports=r;
 /**
 * @license Apache-2.0
 *
